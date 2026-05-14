@@ -29,6 +29,21 @@
 .color_orange {
     color: #FF6B35;
 }
+.section_heading {
+    max-width: 1230px;
+    text-align: center;
+
+}
+.section_heading h2 {
+    font-size: 35px;;
+    margin-bottom: 30px;
+}
+.section_heading p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 /* main styles */
 header {
     
@@ -91,5 +106,35 @@ nav .menu a {
 #banner .banner_image img {
     max-width: 585px;
    vertical-align: middle;
+   
+}
+#about {
+    padding-top: 130px;
+}
+#about .about_container{
+    width: 71%;
+    max-width: 1640px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+
+}
+#about .about_container .about_info {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.about_info .info_card p {
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+  
+
+}
+.about_info .info_card h4 {
+    font-size: 20px;
    
 }
